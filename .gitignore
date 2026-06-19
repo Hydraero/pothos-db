@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Env files (NEVER commit)
+.env
+.env.local
+.env*.local
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
